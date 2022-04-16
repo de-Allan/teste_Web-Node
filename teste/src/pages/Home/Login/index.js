@@ -5,15 +5,15 @@ import './login.css'
 
 export default function Login() {
     return(
-           <div className = "geral">
+            <div className = "geral">
                 <div className = "login-box">
                 
-                    <h1 className= "login-title"> ADMIN PANEL </h1> 
+                    <div className= "login-title"> ADMIN PANEL </div> 
                 
 
                 
                         <form className='login-form'>
-                           <div className='login-form'>
+                           <div>
 
                                 <div className="form-control-label">USERNAME</div>
                                 <input type="text"/>
@@ -34,7 +34,7 @@ export default function Login() {
                             </div>
                         </form>
                 </div>
-                </div>
+             </div>   
             
     );
 }

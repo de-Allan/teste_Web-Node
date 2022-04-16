@@ -4,10 +4,21 @@ body {
     
 }
 
+.geral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
 
+
+}
 .login-box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     margin-top: 150px;
     height: auto;
+    width: 30%;
     background: #1A2226;
     text-align: center;
     justify-content: center;
@@ -88,9 +99,11 @@ label {
     font-weight: bold;
     letter-spacing: 1px;
     padding: 20px;
+    margin-right: 27%;
 }
 
 .btn-outline-primary {
+    cursor:pointer;
     border-color: #0DB8DE;
     color: #0DB8DE;
     background: #1A2226;
@@ -103,7 +116,7 @@ label {
 }
 
 .btn-outline-primary:hover {
-    background-color: #050707;
+    background-color: #0f3636;
     right: 0px;
 }
 
