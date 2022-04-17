@@ -1,17 +1,8 @@
 body {
     background:   #222D32;
     font-family: 'Roboto', sans-serif;
-    
 }
 
-.geral {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-
-
-}
 .login-box {
     display: flex;
     flex-direction: column;
@@ -34,13 +25,11 @@ body {
     margin-top: 15px;
     font-weight: bold;
     color: #ECF0F5;
-    
 }
 
 .login-form {
     margin-top: 25px;
     text-align: center;
-    
 }
 
 input[type=text] {
@@ -138,5 +127,4 @@ label {
 
 .loginbttm {
     padding: 10px;
-    
 }
